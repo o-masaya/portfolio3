@@ -200,6 +200,7 @@ padding: 30px 10px;
     background-color: #016bce;
     border-bottom: 10px solid #013e76;
     border-radius: 10px;
+    box-shadow: 0 5px 0 #013e76;
     color: #fff;
     font-size: 2rem;
     display: block;
@@ -211,10 +212,8 @@ padding: 30px 10px;
     font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 .btn:hover{
-    margin-top: 6px;
-    color: #fff;
-    background-color: #014381;
-    border-bottom: 2px solid #013e76;
+    box-shadow: none;
+    transform: translateY(5px);
 }
 .message dt img{
     padding-bottom: 40px;
